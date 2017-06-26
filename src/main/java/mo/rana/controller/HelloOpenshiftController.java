@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloOpenshiftController {
 	@GetMapping("/hello")
 	public String sayHello(){
-		return "hello world";
+		return "hello world! openshift rock the world of programming";
 	}
 
 }
