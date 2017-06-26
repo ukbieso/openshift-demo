@@ -10,7 +10,7 @@ public class HelloOpenshiftController {
 		return "hello world! openshift rock the world of programming";
 	}
 	@GetMapping("/uk")
-	public @ResponseBody String getjson(){
+	public @ResponseBody String getjson(){  
 		return "ukbies:iyasu:gebremsekel";
 	}
 
