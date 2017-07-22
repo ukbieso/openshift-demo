@@ -13,5 +13,8 @@ public class HelloOpenshiftController {
 	public @ResponseBody String getjson(){  
 		return "ukbies:iyasu:gebremsekel";
 	}
-
+	@GetMapping("/api/op")
+	public String getOpenshift(){
+		return "from openshift";
+	}
 }
