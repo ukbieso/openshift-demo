@@ -15,6 +15,6 @@ public class HelloOpenshiftController {
 	}
 	@GetMapping("/api/op")
 	public String getOpenshift(){
-		return "from openshift";
+		return "API working from openshift. good job ukbieso!";
 	}
 }
