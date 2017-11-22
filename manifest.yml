@@ -1,0 +1,7 @@
+
+applications:
+		- name: springboot-cloudfoundry-demo
+		  path: target\git-openshift-0.0.1-SNAPSHOT.jar
+		  domain: local.pcfdev.io
+		  memory: 512
+		  instances: 1
