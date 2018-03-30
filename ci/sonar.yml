@@ -1,12 +1,1 @@
----
-platform: linux
 
-image_resource:
-  type: docker-image
-  source: {repository: ukbieso/platfo}
-
-inputs:
-  - name: java-test
-
-run:
-  path: java-test/ci/sonar.sh
