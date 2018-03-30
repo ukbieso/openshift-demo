@@ -8,5 +8,8 @@ image_resource:
 inputs:
   - name: java-test
 
+outputs:
+  - name: build-output
+
 run:
-  path: java-test/ci/test.sh
+  path: java-test/ci/build.sh
