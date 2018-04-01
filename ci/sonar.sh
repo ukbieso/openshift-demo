@@ -1,4 +1,5 @@
 #!/bin/sh
 
 set -e -x
-mvn sonar:sonar
+cd java-test
+   mvn sonar:sonar
