@@ -3,7 +3,7 @@ platform: linux
 
 image_resource:
   type: docker-image
-  source: {repository: ???????}
+  source: {repository: ukbieso/ejm}
 
 inputs:
   - name: java-test
