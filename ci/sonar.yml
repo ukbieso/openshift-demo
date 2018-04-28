@@ -7,6 +7,8 @@ image_resource:
 
 inputs:
   - name: java-test
+outputs:
+  - name: sonarqube-analysis-input
 
 run:
   path: java-test/ci/sonar.sh
