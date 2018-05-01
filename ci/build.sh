@@ -7,4 +7,5 @@ mvn clean package
 
 cd ..
 cp -a java-test/. build-output/
+sleep 15s
 #cp java-test/target/git-openShift-0.0.1-SNAPSHOT.jar build-output/.
