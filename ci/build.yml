@@ -17,4 +17,4 @@ run:
   - -exc
   - |
     chmod +x java-test/ci/build.sh
-    ./source-code/ci/build.sh sleep 1m
+    ./java-test/ci/build.sh sleep 1m
