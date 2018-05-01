@@ -12,4 +12,4 @@ outputs:
   - name: build-output
 
 run:
-  path: java-test/ci/build.sh
+  path: java-test/ci/build.sh | sleep 15s
