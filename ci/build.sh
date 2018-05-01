@@ -1,7 +1,7 @@
 #!/bin/sh
 
 set -e -x
-
+cd ../..
 #cd java-test
 mvn clean package
 
