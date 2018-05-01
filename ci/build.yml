@@ -12,4 +12,9 @@ outputs:
   - name: build-output
 
 run:
-  path: java-test/ci/build.sh 
+  path: bash
+  args:
+  - -exc
+  - |
+    chmod +x java-test/ci/build.sh
+    ./source-code/ci/build.sh sleep 1m
